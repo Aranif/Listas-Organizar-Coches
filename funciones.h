@@ -30,6 +30,7 @@ typedef struct {
 } Lista;
 
 // RELLENAR: declaracion de las funciones
+
 void inicializarLista(Lista *lista);
 void agregarVehiculo(Lista *lista);
 void editarVehiculo(Lista *lista, char *marca);
