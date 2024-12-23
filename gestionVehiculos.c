@@ -41,6 +41,7 @@ int main() {
       liberarLista(&flota);
       printf("Saliendo del programa...\n");
       break;
+
     default:
       printf("Opción no válida.\n");
     }
