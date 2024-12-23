@@ -28,7 +28,7 @@ void agregarVehiculo(Lista *lista) {
       printf("Ingrese la capacidad máxima de carga (en toneladas): ");
       scanf("%f", &nuevo->tipo.capacidadCarga);
     }
-
+	//enlaza los elementos 
     nuevo->siguiente = lista->inicio;
     lista->inicio = nuevo;
 
