@@ -7,6 +7,7 @@ void inicializarLista(Lista *lista) {
   lista->inicio = NULL;
 }
 
+
 void agregarVehiculo(Lista *lista) {
   Vehiculo *nuevo = (Vehiculo *)malloc(sizeof(Vehiculo));
   if (nuevo != NULL) {
